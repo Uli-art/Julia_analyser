@@ -1,0 +1,7 @@
+function mandelbrot(a
+    z = 0
+    for k 1:50
+        z = z^(2 + a)
+    end
+    return z
+end

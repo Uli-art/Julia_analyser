@@ -1,0 +1,11 @@
+println(unknown_variable)
+if k > 10 || k < 50
+    println("True")
+end
+
+x = 0
+while 5
+    println("x")
+    x += 1  
+end
+

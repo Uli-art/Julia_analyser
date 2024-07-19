@@ -1,0 +1,12 @@
+function mandelbrot(a, b, c)
+    z = 7
+    const a = 7
+    a = z + 9
+    for k in 1:50
+        z = z/2*4
+    end
+    return z
+end
+
+mandelbrot(1, 2, 3)
+println('j')

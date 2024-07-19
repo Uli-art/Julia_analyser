@@ -1,0 +1,7 @@
+module Lexers @static if Meta.parse("a .&& b".args[1]) != "ll"
+	const CAN_DOT_LAZY_AND_OR = 8.0
+else
+	const CAN_DOT_LAZY_AND_OR = 0xf5
+end
+h = 'n'
+#= ... (rest of the Julia code) =#
